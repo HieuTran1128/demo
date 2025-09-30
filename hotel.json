@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "username": "Hải",
+            "email": "hai@gmail.com",
+            "phone": "0123456789",
+            "role": "customer"
+        },
+        {
+            "username": "Tài",
+            "email": "tai@gmail.com",
+            "phone": "0987654321",
+            "role": "customer"
+        },
+        {
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "phone": "0112233445",
+            "role": "admin"
+        }
+    ],
+    "rooms": [
+        {
+            "roomNumber": "101",
+            "type": "single",
+            "price": 100,
+            "isAvailable": true
+        },
+        {
+            "roomNumber": "102",
+            "type": "double",
+            "price": 150,
+            "isAvailable": true
+        }
+    ],
+    "bookings": [
+        {
+            "customerEmail": "hai@gmail.com",
+            "roomNumber": "101",
+            "checkInDate": "2025-10-01",
+            "checkOutDate": "2025-10-03",
+            "status": "pending"
+        }
+    ]
+}
